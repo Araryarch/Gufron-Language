@@ -36,9 +36,38 @@ gfr build file.gfr
 # output: file.js
 ```
 
----
+## Syntax Reference
 
-## Syntax
+| Gufron | JavaScript | Keterangan |
+|--------|-----------|------------|
+| `asqoli x ina val` | `const x = val` / `let x = val` | auto-detect const/let |
+| `x ina val` | `x = val` | reassignment |
+| `maqoli x` | `console.log(x)` | output |
+| `syalala` | `true` | boolean true |
+| `syududu` | `false` | boolean false |
+| `motor_gufron` | `null` | null |
+| `ina` | `=` | assignment |
+| `inna` | `==` | equal |
+| `innna` | `===` | strict equal |
+| `la ina` | `!=` | not equal |
+| `besar` | `>` | greater than |
+| `kecil` | `<` | less than |
+| `besar_inna` | `>=` | greater or equal |
+| `kecil_inna` | `<=` | less or equal |
+| `la` | `!` | logical not |
+| `+` `-` `*` `/` | `+` `-` `*` `/` | aritmatika |
+| `fi, cond:` | `if (cond) {` | if |
+| `fima, cond:` | `} else if (cond) {` | else if |
+| `ma:` | `} else {` | else |
+| `jancok fn a, b:` | `function fn(a, b) {` | function declaration |
+| `balikkeun val` | `return val` | return |
+| `fn arg1, arg2` | `fn(arg1, arg2)` | function call |
+| `liyer, cond:` | `while (cond) {` | while loop |
+| `liyer, i ina 0, i kecil n, i ina i + 1:` | `for (let i=0; i<n; i++) {` | for loop |
+| `coba:` | `try {` | try |
+| `goblok err:` | `} catch (err) {` | catch |
+
+---
 
 ### Variabel
 Pakai `asqoli`. Auto-detect `const` atau `let` — kalau di-reassign jadi `let`, kalau tidak jadi `const`.
