@@ -1,0 +1,25 @@
+{
+  "name": "gufron-lang",
+  "version": "1.0.0",
+  "description": "Gufron Language (.gfr) interpreter/compiler",
+  "main": "index.js",
+  "bin": {
+    "gfr": "index.js"
+  },
+  "scripts": {
+    "build": "pkg . --out-path dist"
+  },
+  "pkg": {
+    "scripts": "src/**/*.js",
+    "targets": [
+      "node18-linux-x64",
+      "node18-macos-x64",
+      "node18-win-x64"
+    ],
+    "outputPath": "dist"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "pkg": "5.8.1"
+  }
+}

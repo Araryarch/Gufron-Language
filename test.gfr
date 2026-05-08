@@ -1,0 +1,48 @@
+jancok tambah a, b:
+	balikkeun a + b
+
+asqoli hasil ina tambah 1, 2
+maqoli hasil
+
+fi, hasil inna 3:
+	maqoli "benar"
+fima, hasil inna 2:
+	maqoli "dua"
+ma:
+	maqoli "salah"
+
+asqoli aktif ina syalala
+asqoli nonaktif ina syududu
+maqoli aktif
+maqoli nonaktif
+
+fi, la aktif:
+	maqoli "tidak aktif"
+ma:
+	maqoli "aktif!"
+
+fi, hasil la ina 5:
+	maqoli "hasil bukan 5"
+
+liyer, i ina 0, i kecil 5, i ina i + 1:
+	maqoli i
+
+asqoli n ina 3
+liyer, n besar 0:
+	maqoli n
+	n ina n - 1
+
+coba:
+	maqoli "mencoba sesuatu..."
+	asqoli x ina tidakAda
+goblok err:
+	maqoli "ketangkep error:"
+	maqoli err
+
+coba:
+	maqoli "ini berhasil"
+	asqoli y ina 10 + 5
+	maqoli y
+goblok e:
+	maqoli "error:"
+	maqoli e
