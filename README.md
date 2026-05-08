@@ -130,6 +130,9 @@ jancok tambah a, b:
 
 asqoli hasil ina tambah 3, 4
 maqoli hasil
+
+maqoli tambah 10, 5
+tambah 1, 2
 ```
 
 Pemanggilan function tanpa kurung, argumen dipisah koma.
